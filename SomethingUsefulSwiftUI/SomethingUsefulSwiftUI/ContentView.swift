@@ -5,6 +5,7 @@
 //  Created by Gordon Choi on 5/7/24.
 //
 
+import OSLog
 import SwiftUI
 
 struct ContentView: View {
@@ -20,6 +21,9 @@ struct ContentView: View {
                     CustomDropdownView()
                 }
             }
+        }
+        .onAppear {
+            VividLogger.viewCycleLog(.warning, "View Appeared")
         }
     }
 }

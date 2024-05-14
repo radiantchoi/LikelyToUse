@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0A4D9F2BF38B7A004048E8 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0A4D9E2BF38B7A004048E8 /* Logger.swift */; };
 		4FE2952C2BEA51380064BE7E /* SomethingUsefulSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE2952B2BEA51380064BE7E /* SomethingUsefulSwiftUIApp.swift */; };
 		4FE2952E2BEA51380064BE7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE2952D2BEA51380064BE7E /* ContentView.swift */; };
 		4FE295302BEA51390064BE7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FE2952F2BEA51390064BE7E /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F0A4D9E2BF38B7A004048E8 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		4FE295282BEA51380064BE7E /* SomethingUsefulSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SomethingUsefulSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE2952B2BEA51380064BE7E /* SomethingUsefulSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomethingUsefulSwiftUIApp.swift; sourceTree = "<group>"; };
 		4FE2952D2BEA51380064BE7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			children = (
 				4FE2952B2BEA51380064BE7E /* SomethingUsefulSwiftUIApp.swift */,
 				4FE2952D2BEA51380064BE7E /* ContentView.swift */,
+				4F0A4D9E2BF38B7A004048E8 /* Logger.swift */,
 				4FE295592BEA553F0064BE7E /* ViewDojo.swift */,
 				4FE295602BEA5D4C0064BE7E /* Views */,
 				4FE2955D2BEA57B80064BE7E /* Components */,
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FE2955A2BEA553F0064BE7E /* ViewDojo.swift in Sources */,
+				4F0A4D9F2BF38B7A004048E8 /* Logger.swift in Sources */,
 				4FE2952E2BEA51380064BE7E /* ContentView.swift in Sources */,
 				4FE2955C2BEA57B40064BE7E /* CustomDropdownView.swift in Sources */,
 				4FE2952C2BEA51380064BE7E /* SomethingUsefulSwiftUIApp.swift in Sources */,
