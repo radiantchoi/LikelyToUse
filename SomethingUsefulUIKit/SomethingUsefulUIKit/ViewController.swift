@@ -7,13 +7,29 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+import SnapKit
 
+final class ViewController: BaseViewController {
+    private lazy var helloLabel: UILabel = {
+        let label = UILabel()
+        
+        label.text = "Hello"
+        return label
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
+    // 이런 식으로 쓸 때 super를 해 주어야 할까?
+    override func setupSubviews() {
+        view.addSubview(helloLabel)
+    }
+    
+    override func setupConstraints() {
+        helloLabel.snp.makeConstraints { labelConstraint in
+            labelConstraint.center.equalToSuperview()
+        }
+    }
 }
 

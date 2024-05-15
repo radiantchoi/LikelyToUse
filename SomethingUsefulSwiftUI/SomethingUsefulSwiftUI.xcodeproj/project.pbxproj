@@ -40,6 +40,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F6278E52BF4964000588ECE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				4F0A4D9E2BF38B7A004048E8 /* Logger.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		4F6278E62BF4966200588ECE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4FE295592BEA553F0064BE7E /* ViewDojo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		4FE2951F2BEA51380064BE7E = {
 			isa = PBXGroup;
 			children = (
@@ -61,10 +77,10 @@
 			children = (
 				4FE2952B2BEA51380064BE7E /* SomethingUsefulSwiftUIApp.swift */,
 				4FE2952D2BEA51380064BE7E /* ContentView.swift */,
-				4F0A4D9E2BF38B7A004048E8 /* Logger.swift */,
-				4FE295592BEA553F0064BE7E /* ViewDojo.swift */,
+				4F6278E62BF4966200588ECE /* Models */,
 				4FE295602BEA5D4C0064BE7E /* Views */,
 				4FE2955D2BEA57B80064BE7E /* Components */,
+				4F6278E52BF4964000588ECE /* Utility */,
 				4FE2952F2BEA51390064BE7E /* Assets.xcassets */,
 				4FE295312BEA51390064BE7E /* Preview Content */,
 			);
