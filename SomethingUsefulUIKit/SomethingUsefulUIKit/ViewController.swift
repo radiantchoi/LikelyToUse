@@ -7,8 +7,6 @@
 
 import UIKit
 
-import SnapKit
-
 final class ViewController: BaseViewController {
     private lazy var helloLabel: UILabel = {
         let label = UILabel()
@@ -27,9 +25,10 @@ final class ViewController: BaseViewController {
     }
     
     override func setupConstraints() {
-        helloLabel.snp.makeConstraints { labelConstraint in
-            labelConstraint.center.equalToSuperview()
-        }
+        helloLabel.translatesAutoresizingMaskIntoConstraints = false
+        
+        helloLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        helloLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
     }
 }
 
