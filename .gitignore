@@ -89,3 +89,4 @@ fastlane/test_output
 
 iOSInjectionProject/
 SomethingUsefulUIKit/SomethingUsefulUIKit/GoogleService-Info.plist
+SomethingUsefulSwiftUI/SomethingUsefulSwiftUI/GoogleService-Info.plist

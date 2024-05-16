@@ -8,13 +8,10 @@
 import UIKit
 
 import Firebase
-import FirebaseCore
+//import FirebaseCore
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         if #available(iOS 12.0, *) {
@@ -54,14 +51,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 
 extension AppDelegate: UNUserNotificationCenterDelegate, MessagingDelegate {
-    
     public func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String?) {
         let firebaseToken = fcmToken ?? ""
         print("firebase token: \(firebaseToken)")
     }
     
     public func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
-        completionHandler([.alert, .badge, .sound])
+        completionHandler([.banner, .list, .badge, .sound])
     }
     
     public func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
