@@ -11,6 +11,9 @@
 		4F7C88A62BF63C8B00D5F25A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F7C88A52BF63C8B00D5F25A /* GoogleService-Info.plist */; };
 		4F7C88AB2BF63D3100D5F25A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 4F7C88AA2BF63D3100D5F25A /* FirebaseAnalytics */; };
 		4F7C88AD2BF63D3B00D5F25A /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 4F7C88AC2BF63D3B00D5F25A /* FirebaseMessaging */; };
+		4FD15DD42C2AEA7E006B9537 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 4FD15DD32C2AEA7E006B9537 /* Lottie */; };
+		4FD15DD62C2AEA97006B9537 /* LottieAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD15DD52C2AEA97006B9537 /* LottieAnimationView.swift */; };
+		4FD15DDB2C2AED5D006B9537 /* RoundedCheckmark.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FD15DDA2C2AED5D006B9537 /* RoundedCheckmark.json */; };
 		4FE2952C2BEA51380064BE7E /* SomethingUsefulSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE2952B2BEA51380064BE7E /* SomethingUsefulSwiftUIApp.swift */; };
 		4FE2952E2BEA51380064BE7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE2952D2BEA51380064BE7E /* ContentView.swift */; };
 		4FE295302BEA51390064BE7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FE2952F2BEA51390064BE7E /* Assets.xcassets */; };
@@ -25,6 +28,8 @@
 		4F7C88A52BF63C8B00D5F25A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4F7C88A72BF63CB300D5F25A /* SomethingUsefulSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SomethingUsefulSwiftUI.entitlements; sourceTree = "<group>"; };
 		4F7C88A82BF63CBA00D5F25A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4FD15DD52C2AEA97006B9537 /* LottieAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationView.swift; sourceTree = "<group>"; };
+		4FD15DDA2C2AED5D006B9537 /* RoundedCheckmark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RoundedCheckmark.json; sourceTree = "<group>"; };
 		4FE295282BEA51380064BE7E /* SomethingUsefulSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SomethingUsefulSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE2952B2BEA51380064BE7E /* SomethingUsefulSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomethingUsefulSwiftUIApp.swift; sourceTree = "<group>"; };
 		4FE2952D2BEA51380064BE7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +47,7 @@
 			files = (
 				4F7C88AD2BF63D3B00D5F25A /* FirebaseMessaging in Frameworks */,
 				4F7C88AB2BF63D3100D5F25A /* FirebaseAnalytics in Frameworks */,
+				4FD15DD42C2AEA7E006B9537 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +75,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FD15DD92C2AED34006B9537 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				4FD15DDA2C2AED5D006B9537 /* RoundedCheckmark.json */,
+			);
+			path = Lottie;
 			sourceTree = "<group>";
 		};
 		4FE2951F2BEA51380064BE7E = {
@@ -101,6 +115,7 @@
 				4FE2955D2BEA57B80064BE7E /* Components */,
 				4F6278E52BF4964000588ECE /* Utility */,
 				4FE2952F2BEA51390064BE7E /* Assets.xcassets */,
+				4FD15DD92C2AED34006B9537 /* Lottie */,
 				4FE295312BEA51390064BE7E /* Preview Content */,
 			);
 			path = SomethingUsefulSwiftUI;
@@ -126,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				4FE2955B2BEA57B40064BE7E /* CustomDropdownView.swift */,
+				4FD15DD52C2AEA97006B9537 /* LottieAnimationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -149,6 +165,7 @@
 			packageProductDependencies = (
 				4F7C88AA2BF63D3100D5F25A /* FirebaseAnalytics */,
 				4F7C88AC2BF63D3B00D5F25A /* FirebaseMessaging */,
+				4FD15DD32C2AEA7E006B9537 /* Lottie */,
 			);
 			productName = SomethingUsefulSwiftUI;
 			productReference = 4FE295282BEA51380064BE7E /* SomethingUsefulSwiftUI.app */;
@@ -180,6 +197,7 @@
 			mainGroup = 4FE2951F2BEA51380064BE7E;
 			packageReferences = (
 				4F7C88A42BF63C7200D5F25A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				4FD15DD22C2AEA7E006B9537 /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = 4FE295292BEA51380064BE7E /* Products */;
 			projectDirPath = "";
@@ -198,6 +216,7 @@
 				4FE295332BEA51390064BE7E /* Preview Assets.xcassets in Resources */,
 				4FE295302BEA51390064BE7E /* Assets.xcassets in Resources */,
 				4F7C88A62BF63C8B00D5F25A /* GoogleService-Info.plist in Resources */,
+				4FD15DDB2C2AED5D006B9537 /* RoundedCheckmark.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +229,7 @@
 			files = (
 				4FE2955A2BEA553F0064BE7E /* ViewDojo.swift in Sources */,
 				4F0A4D9F2BF38B7A004048E8 /* Logger.swift in Sources */,
+				4FD15DD62C2AEA97006B9537 /* LottieAnimationView.swift in Sources */,
 				4FE2952E2BEA51380064BE7E /* ContentView.swift in Sources */,
 				4FE2955C2BEA57B40064BE7E /* CustomDropdownView.swift in Sources */,
 				4FE2952C2BEA51380064BE7E /* SomethingUsefulSwiftUIApp.swift in Sources */,
@@ -365,6 +385,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.oldstar.likelytouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -397,6 +421,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.oldstar.likelytouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -435,6 +463,14 @@
 				minimumVersion = 10.26.0;
 			};
 		};
+		4FD15DD22C2AEA7E006B9537 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -447,6 +483,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4F7C88A42BF63C7200D5F25A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseMessaging;
+		};
+		4FD15DD32C2AEA7E006B9537 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FD15DD22C2AEA7E006B9537 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -19,6 +19,8 @@ struct ContentView: View {
                 switch component {
                 case .customDropdown:
                     CustomDropdownView()
+                case .lottieAnimation:
+                    LottieAnimationView()
                 }
             }
         }
