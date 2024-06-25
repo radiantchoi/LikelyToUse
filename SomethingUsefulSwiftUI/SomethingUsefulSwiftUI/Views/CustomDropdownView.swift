@@ -15,9 +15,9 @@ struct CustomDropdownView: View {
         CustomizableDropdown(
             options: ["Robin", "Firefly", "Jade"],
             layoutOptions: CustomizableDropdownLayoutOptions(
-                menuWidth: 300,
-                buttonHeight: 100,
-                maximumItemDisplayed: 2
+                menuWidth: 200,
+                buttonHeight: 50,
+                maximumItemDisplayed: 3
             ),
             selectedOptionIndex: $selectedOptionIndex,
             showDropdown: $showDropdown
