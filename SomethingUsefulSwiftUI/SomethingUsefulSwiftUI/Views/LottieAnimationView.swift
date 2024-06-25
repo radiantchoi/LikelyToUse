@@ -13,6 +13,7 @@ struct LottieAnimationView: View {
     var body: some View {
         LottieView(animation: .named("RoundedCheckmark"))
             .looping()
+            .animationSpeed(2)
     }
 }
 
