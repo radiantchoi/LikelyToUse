@@ -7,7 +7,7 @@
 
 import OSLog
 
-extension Logger {
+fileprivate extension Logger {
     private static var subsystem = Bundle.main.bundleIdentifier!
     
     static let viewCycle = Logger(subsystem: subsystem, category: "ViewCycle")
@@ -41,8 +41,8 @@ public enum VividLogger {
         }
     }
     
-    static func viewCycleLog(_ status: LogStatus, _ log: Any?) {
-        let str = "\(status.colorMark) View Cycle \(status.rawValue)\n\(String(describing: log ?? "NO LOG CONTENTS"))"
+    static func viewCycleLog(fileID: String = #fileID, line: Int = #line, function: String = #function, _ status: LogStatus, _ log: Any?) {
+        let str = "\(status.colorMark) View Cycle \(status.rawValue) at \(fileID), \(function), \(line)\n\(String(describing: log ?? "NO LOG CONTENTS"))"
         
         switch status {
         case .notice:
@@ -64,8 +64,8 @@ public enum VividLogger {
         }
     }
     
-    static func apiLog(_ status: LogStatus, _ log: Any?) {
-        let str = "\(status.colorMark) API \(status.rawValue)\n\(String(describing: log ?? "NO LOG CONTENTS"))"
+    static func apiLog(fileID: String = #fileID, line: Int = #line, function: String = #function, _ status: LogStatus, _ log: Any?) {
+        let str = "\(status.colorMark) API \(status.rawValue) at \(fileID), \(function), \(line)\n\(String(describing: log ?? "NO LOG CONTENTS"))"
         
         switch status {
         case .notice:
