@@ -7,10 +7,12 @@
 
 import SwiftUI
 
+// 이건 첫번째 레슨, 재사용 가능한 뷰 분리하기
 struct Card<Header: View, Content: View>: View {
     let header: () -> Header
     let content: () -> Content
     
+    // 이건 두번째 레슨, @ViewBuilder 활용해서 nested layout 유연하게 처리하기
     init(
         @ViewBuilder header: @escaping () -> Header,
         @ViewBuilder content: @escaping () -> Content

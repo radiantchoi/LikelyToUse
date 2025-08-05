@@ -9,13 +9,39 @@ import SwiftUI
 
 struct CustomCardView: View {
     var body: some View {
-        Card {
-            HStack {
-                Image(systemName: "star.fill")
-                Text("Featured")
+        VStack(spacing: 12) {
+            Card {
+                HStack {
+                    Image(systemName: "star.fill")
+                    
+                    Text("Featured")
+                }
+            } content: {
+                Text("This is customizable SwiftUI card")
             }
-        } content: {
-            Text("This is customizable SwiftUI card")
+            
+            FlipCard(
+                front: Card {
+                    HStack {
+                        Image(systemName: "star.fill")
+                        
+                        Text("Front")
+                    }
+                } content: {
+                    Text("This is customizable SwiftUI card front side")
+                },
+//                    .frame(width: 200, height: 120),
+                back: Card {
+                    HStack {
+                        Image(systemName: "star.fill")
+                        
+                        Text("Back")
+                    }
+                } content: {
+                    Text("This is customizable SwiftUI card back side")
+                }
+//                    .frame(width: 200, height: 120)
+            )
         }
     }
 }
