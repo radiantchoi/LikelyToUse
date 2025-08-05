@@ -8,6 +8,7 @@
 enum ViewDojo: String, CaseIterable, Identifiable {
     case customDropdown
     case lottieAnimation
+    case customCard
     
     var id: String {
         return rawValue
@@ -19,6 +20,8 @@ enum ViewDojo: String, CaseIterable, Identifiable {
             return "Custom Dropdown Menu"
         case .lottieAnimation:
             return "Lottie Animation"
+        case .customCard:
+            return "Custom Card"
         }
     }
 }

@@ -21,6 +21,8 @@ struct ContentView: View {
                     CustomDropdownView()
                 case .lottieAnimation:
                     LottieAnimationView()
+                case .customCard:
+                    CustomCardView()
                 }
             }
         }
