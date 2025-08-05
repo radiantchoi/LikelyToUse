@@ -12,6 +12,7 @@
 		4F5EF5562E41F13C00B24AFE /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5EF5552E41F13C00B24AFE /* Card.swift */; };
 		4F5EF5582E41F8F200B24AFE /* FlipCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5EF5572E41F8F200B24AFE /* FlipCard.swift */; };
 		4F5EF55A2E41FD7900B24AFE /* Glow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5EF5592E41FD7900B24AFE /* Glow.swift */; };
+		4F5EF55C2E42047A00B24AFE /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5EF55B2E42047A00B24AFE /* FlowLayout.swift */; };
 		4F7C88A62BF63C8B00D5F25A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F7C88A52BF63C8B00D5F25A /* GoogleService-Info.plist */; };
 		4F7C88AB2BF63D3100D5F25A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 4F7C88AA2BF63D3100D5F25A /* FirebaseAnalytics */; };
 		4F7C88AD2BF63D3B00D5F25A /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 4F7C88AC2BF63D3B00D5F25A /* FirebaseMessaging */; };
@@ -33,6 +34,7 @@
 		4F5EF5552E41F13C00B24AFE /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		4F5EF5572E41F8F200B24AFE /* FlipCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipCard.swift; sourceTree = "<group>"; };
 		4F5EF5592E41FD7900B24AFE /* Glow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glow.swift; sourceTree = "<group>"; };
+		4F5EF55B2E42047A00B24AFE /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
 		4F7C88A52BF63C8B00D5F25A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4F7C88A72BF63CB300D5F25A /* SomethingUsefulSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SomethingUsefulSwiftUI.entitlements; sourceTree = "<group>"; };
 		4F7C88A82BF63CBA00D5F25A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				4F5EF5552E41F13C00B24AFE /* Card.swift */,
 				4F5EF5572E41F8F200B24AFE /* FlipCard.swift */,
 				4F5EF5592E41FD7900B24AFE /* Glow.swift */,
+				4F5EF55B2E42047A00B24AFE /* FlowLayout.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FE2955A2BEA553F0064BE7E /* ViewDojo.swift in Sources */,
+				4F5EF55C2E42047A00B24AFE /* FlowLayout.swift in Sources */,
 				4F5EF55A2E41FD7900B24AFE /* Glow.swift in Sources */,
 				4F5EF5562E41F13C00B24AFE /* Card.swift in Sources */,
 				4F0A4D9F2BF38B7A004048E8 /* Logger.swift in Sources */,

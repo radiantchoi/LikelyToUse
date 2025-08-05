@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// 내장 모디파이어 I hate this! 재사용하는 모디파이어도 분리하기
 struct Glow: ViewModifier {
     let color: Color
     

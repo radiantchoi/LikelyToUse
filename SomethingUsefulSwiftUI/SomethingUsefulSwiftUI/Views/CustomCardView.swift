@@ -43,6 +43,16 @@ struct CustomCardView: View {
 //                    .frame(width: 200, height: 120)
             )
             .glow()
+            
+            FlowLayout {
+                ForEach(0..<10) { i in
+                    Text("Item \(i)")
+                        .padding()
+                        .background(Color.gray.opacity(0.2))
+                        .cornerRadius(8)
+                        .glow()
+                }
+            }
         }
     }
 }
