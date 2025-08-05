@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CustomCardView: View {
     var body: some View {
-        VStack(spacing: 12) {
+        VStack(spacing: 20) {
             Card {
                 HStack {
                     Image(systemName: "star.fill")
@@ -42,6 +42,7 @@ struct CustomCardView: View {
                 }
 //                    .frame(width: 200, height: 120)
             )
+            .glow()
         }
     }
 }
